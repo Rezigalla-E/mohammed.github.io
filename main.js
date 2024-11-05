@@ -103,3 +103,7 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive);
+
+/* ----- SCROLL REVEAL FOR PROGRAMMING LANGUAGES SECTION ----- */
+sr.reveal('#programming-languages .skills-header', { delay: 100 });
+sr.reveal('#programming-languages .skills-list span', { interval: 100 });
