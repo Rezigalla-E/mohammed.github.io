@@ -717,3 +717,11 @@ footer {
         width: 100%;
     }
 }
+
+/* ----- MEDIA QUERY == 768px / RESPONSIVE ----- */
+@media only screen and (max-width: 768px) {
+    .nav-menu .nav_list:nth-child(3) {
+        order: 1;
+        margin: auto;
+    }
+}
